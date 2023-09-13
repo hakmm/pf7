@@ -1,0 +1,222 @@
+@media screen and (max-width:720px) {
+    header {
+        padding: 4.17vw;
+    }
+    
+    header .container {
+        display: none;
+    }
+    
+    header .ham {
+        display: block;
+    }
+    
+    header .ham h1 a {
+        color: #fff;
+    }
+/*   타이틀수정   */
+    #title .vi {
+        height: 118vw;
+    }
+    
+    #title .container {
+        height: 118vw;
+    }
+    
+    #title .container h2 {
+        bottom: 12.5vw;
+        font-size: 50px;
+        margin-left: 10px;
+    }
+    
+    #global .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #global .container > div:nth-child(1) {
+        order: 2;
+        font-size: 3.2vw;
+        text-align: center;
+    }
+    
+    canvas {
+        width: 84.5vw;
+        height: 42.3vw;
+        order: 1;
+    }
+
+/*   news   */
+    #news .container-sub {
+        padding-left: 15px;
+    }
+    
+    #news .container-sub .slide li {
+        padding-top: 4.86vw;
+        width: auto;
+    }
+
+    #news .container-sub .slide li > div:hover {
+        transform: none;
+    }
+     
+/*  games    */
+    #game .container .container-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #game .container .container-sub > div:hover > article {
+        display: none;
+    }
+    
+    #game .container .container-sub > div .games-img {
+        left: 0;
+        top: auto;
+        bottom: 15px;
+        width: 100%;
+    }
+    
+    #game .container .container-sub > div .games-img figure figcaption {
+        font-size: 5vw;
+    }
+    
+    #game .container .container-sub > div .games-img p {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    
+/*  studios stories   */
+    #studios .container ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #studios .container ul li {
+        width: 75.4vw;
+        margin-bottom: 20px;
+    }
+    
+    #studios .container ul li:hover, #stories .container ul li:hover {
+        transform: none;
+    }
+    
+    #studios .container ul li a div p {
+        font-size: 3.5vw;
+    }
+/*   stories   */
+    #stories .container .container-sub ul li {
+        padding: 4.1vw;
+        margin-bottom: 10px;
+    }
+    
+    #stories .container .container-sub {
+        padding: 15px;
+    }
+    
+    #stories .container ul {
+        display: block;
+    }
+    
+/*   guide   */
+    #guide .container ul {
+        display: block;
+    }
+    
+    #guide .container ul li {
+        border: none;
+    }
+    
+    #guide .container ul li:hover {
+        border: none;
+    }
+    
+    #guide .container ul li h5 {
+        color: #FF8100;
+    }
+    
+/*   goyong   */
+    #goyong {
+        padding: 15px;
+    }
+    
+    #goyong .container::after {
+        width: 51.3vw;
+        height: 52.7vw;
+        right: -14px;
+    }
+    
+    #goyong .container .container-sub {
+        padding: 4.86vw;
+        margin-left: 0px;
+    }
+    
+    #goyong .container .container-sub h4 {
+        font-size: 6.94vw;;
+    }
+    
+    #goyong .container .container-sub p {
+        font-size: 2.22vw;
+        width: 50%;
+    }
+/*  footer    */
+    footer .container > div:nth-of-type(1) {
+        order: 1;
+    }
+    
+    footer .container > ul:nth-of-type(1), footer .container ul:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 15px;
+    }
+    
+    footer .container > ul:nth-of-type(1) {
+        order: 3;
+        
+    }
+    
+    footer .container ul:nth-of-type(2) {
+        order: 4;
+        width: 100%;
+    }
+    
+    footer .container > div:nth-of-type(2) {
+        order: 2;
+        width: 100%;
+    }
+    
+    footer .container > .family > ul {
+        width: 100%;
+    }
+    
+    footer .container > .family > ul li span {
+        width: 100%;
+    }
+    
+    footer .container > .family .family-site {
+        background-color: #FF5F00;
+    }
+    
+    footer .container > div:nth-of-type(3) {
+        order: 5;
+    }
+    
+/*  공통    */
+    h3 {
+        font-size: 40px;
+        margin-bottom: 5.5vw;
+        margin-left: 10px;
+    }
+    
+    .marT100 {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    section:not(#global) {
+        margin-top: 50px;
+    }
+}

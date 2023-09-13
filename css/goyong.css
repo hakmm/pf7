@@ -1,0 +1,32 @@
+#goyong {
+    margin-bottom: 100px
+}
+
+#goyong .container {
+    background-color: #F8E8DA;
+    border-radius: 20px;
+    position: relative;
+}
+
+#goyong .container::after {
+    content: "";
+    background-image: url(../img/hiring-char.webp);
+    width: 370px;
+    height: 380px;
+    display: block;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+}
+
+#goyong .container .container-sub {
+    padding: 35px;
+    margin-left: 30px;
+}
+
+#goyong .container .container-sub h4 {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+}

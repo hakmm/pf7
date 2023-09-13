@@ -1,0 +1,40 @@
+#news {
+    overflow: hidden;
+}
+
+#news .container-sub {
+    
+}
+
+#news .container-sub .slide li {
+    padding-top: 35px;
+}
+
+#news .container-sub .slide li > div {
+    width: 350px !important;
+    border: 1px solid #666;
+    cursor: pointer;
+    border-radius: 10px;
+    transition:-webkit-transform 0.3s ease-out,box-shadow 0.3s ease-out;
+}
+
+#news .container-sub .slide li > div:hover {
+    box-shadow:0 11px 9px rgba(0,0,0,0.15);
+    transform:translateY(-32px);
+}
+
+#news .container-sub .slide li > div > div {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#news .container-sub .slide li div > img {
+    width: 350px;
+    height: 230px;
+    border-radius: 10px 10px 0 0; 
+}
+
+#news .container-sub .slide li > div > div > h4 {
+    font-weight: bold;
+    line-height: 1.4;
+}

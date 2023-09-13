@@ -1,0 +1,40 @@
+#guide .container ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#guide .container ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid transparent;
+}
+
+#guide .container ul li:hover {
+    border: 1px solid #666;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#guide .container ul li:hover h5 {
+    color: #FF8100;
+}
+
+#guide .container ul li svg {
+    width: 128px !important;;
+    height: 128px !important;;
+}
+
+
+
+#guide .container ul li div.desc h5 {
+    font-size: 25px;
+    font-family: 'ADLaM Display', cursive;
+    text-align: center;
+    line-height: 3;
+}
+
+#guide .container ul li div.desc p {
+    font-size: 15px;
+}

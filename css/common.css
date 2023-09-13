@@ -1,0 +1,59 @@
+body {
+    font-family: 'Noto Serif KR', serif;
+}
+
+section:not(#global) {
+    margin-top: 150px;
+}
+
+h3 {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 90px;
+    color: #FF5F00;
+    font-style: oblique;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.marT50 {
+    margin-top: 50px;
+}
+
+.marT100 {
+    margin-top: 100px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #FF8200;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'ADLaM Display', cursive;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #FFCE00;
+}
+
+.all {
+    padding: 12px 24px;
+    background-color: #000;
+    text-align: center;
+    line-height: 48px;
+    color: #Fff;
+    border-radius: 36px;
+    transition: all 1s;
+    font-family: 'ADLaM Display', cursive;
+}
+
+.all:hover {
+    background-color: #FF8200;
+}
